@@ -17,6 +17,7 @@ import { SiFastapi } from "react-icons/si";
 import { SiTwilio } from "react-icons/si";
 import { SiNgrok } from "react-icons/si";
 import { AiFillOpenAI } from "react-icons/ai"
+import { IoLogoVercel } from "react-icons/io5";
 
 const iconVariants = (duration) => ({
     initial: { y: -10 },
@@ -137,6 +138,11 @@ const Technologies = () => {
               <a href="https://platform.openai.com/docs/api-reference/introduction" target="_blank" rel="noopener noreferrer">
                   <motion.div variants={iconVariantsOp(1)} initial='initial' animate='animate' className="rounded-2xl border-4 border-neutral-800 p-4 mb-10">
                       <AiFillOpenAI className="text-7xl text-teal-600"/>
+                  </motion.div>
+              </a>
+              <a href="https://vercel.com/docs" target="_blank" rel="noopener noreferrer">
+                  <motion.div variants={iconVariants(1)} initial='initial' animate='animate' className="rounded-2xl border-4 border-neutral-800 p-4 mb-10">
+                      <IoLogoVercel className="text-7xl text-white"/>
                   </motion.div>
               </a>
           </motion.div>
