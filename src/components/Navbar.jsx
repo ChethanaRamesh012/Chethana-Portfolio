@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import logo from "../assets/pd-re.png";
 import { FaLinkedin, FaGithub, FaBars, FaTimes } from "react-icons/fa";
 import { SiLeetcode, SiChessdotcom, SiNotion } from "react-icons/si";
 
@@ -15,45 +14,24 @@ const Navbar = () => {
       <nav className="flex items-center justify-between py-4 px-5">
         {/* Logo */}
         <div className="flex items-center">
-          <img className="" src={logo} alt="logo" />
+          
         </div>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center justify-center gap-4 text-3xl">
           <a
-            href="https://www.linkedin.com/in/parithosh-d/"
+            href="https://www.linkedin.com/in/chethanaramesh/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaLinkedin className="text-5xl text-[#0A66C2]" />
           </a>
           <a
-            href="https://github.com/parithoshd"
+            href="https://github.com/ChethanaRamesh012/Chethana-Ramesh"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaGithub className="text-5xl text-gray-500" />
-          </a>
-          <a
-            href="https://leetcode.com/u/parithoshd22/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <SiLeetcode className="text-5xl text-[#FFA116]" />
-          </a>
-          <a
-            href="https://www.chess.com/member/blitzstar911"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <SiChessdotcom className="text-5xl text-[#4CAF50]" />
-          </a>
-          <a
-            href="https://tough-soap-163.notion.site/LeetCode-183b988dca6a805cb46eeedf22cc5d48"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <SiNotion className="text-5xl" />
           </a>
         </div>
 
