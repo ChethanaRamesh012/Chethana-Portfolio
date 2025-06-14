@@ -13,6 +13,37 @@ export const HERO_CONTENT = `I'm an XR Developer and Full Stack Developer dedica
 
 export const ABOUT_TEXT = `I am an engineer specializing in Analog, Digital, and FPGA Design, with expertise in circuit design, RTL development, verification, and high-speed communication protocols. My work spans low-power analog circuits, ASIC/FPGA implementations, and digital design methodologies, utilizing advanced simulation tools and verification techniques. I have experience designing low-power Flash ADCs, CMOS processors, and radiation-hardened SRAM cells. My digital design expertise includes PCIe high-speed communication, FPGA-based cryptographic systems, and hybrid memory architectures, leveraging Verilog, SystemVerilog, and UVM for implementation and verification. Additionally, I have worked on ASIC verification, Tinytapeout ASIC simulation, and SPI verification using UVM, demonstrating proficiency in EDA tools, testbench architectures, and functional coverage methodologies. My experience extends to PCB design, FPGA prototyping, and embedded system development, making me adept with Altium Designer, KiCad, oscilloscopes, and logic analyzers.`;
 
+export const EDUCATION = [
+  {
+    degree: "MS in Electrical Engineering",
+    school: "The George Washington University",
+    location: "Washington DC, USA",
+    duration: "Aug 2023 – May 2025",
+    gpa: "3.5 / 4",
+    coursework: [
+      "VLSI Design and Simulation",
+      "Design of VLSI Circuits",
+      "Computer Architecture",
+      "ASIC Design and Testing",
+      "High Performance Computing"
+    ]
+  },
+  {
+    degree: "BE in Electronics and Communication Engineering",
+    school: "BMS College of Engineering",
+    location: "Bengaluru, India",
+    duration: "Sep 2020 – Jun 2023",
+    gpa: "8.4 / 10",
+    coursework: [
+      "Hardware Description Language",
+      "System Verilog and Verification",
+      "Digital Signal Processing",
+      "Physical Design",
+      "Mixed Signal Design"
+    ]
+  }
+];
+
 export const EXPERIENCES = [
   {
     year: "Feb 2023 - Jun 2023",
