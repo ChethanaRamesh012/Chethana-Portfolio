@@ -50,7 +50,7 @@ export const EXPERIENCES = [
     role: "Embedded Systems Intern",
     company: "Tequed Labs Pvt Ltd",
     description: `Designed and implemented a complete IoT-enabled Warehouse Management System by integrating RFID readers with NodeMCU microcontrollers over SPI for automated asset tracking and location updates. Developed embedded C firmware and PHP-based backend to facilitate data acquisition, server communication, and real-time monitoring simulating early-stage bring-up and debug workflows for sensor-based systems. Characterized system-level behavior through iterative test setup revisions, debugging communication failures using serial logging and protocol analysis, reflecting practical lab experience with embedded communication standards (I2C, SPI) and microcontroller interfacing.`,
-    technologies: ["Embedded Firmware & Hardware Bring-up","System-level Integration & Protocol Debugging","Sensor & Peripheral Interfacing","Lab-based Debug & Validation Workflows"],
+    technologies: ["Embedded Firmware", "Hardware Bring-up","System-level Integration", "Protocol Debugging","Sensor & Peripheral Interfacing","Lab-based Debug", "Validation Workflows"],
   },
   {
     year: "Jan 2023",
