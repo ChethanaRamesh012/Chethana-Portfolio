@@ -1,7 +1,6 @@
 import React from 'react';
 import { EDUCATION } from '../constants';
 import { motion } from 'framer-motion';
-
 const Education = () => {
   return (
     <div className="border-b border-white pb-4">
