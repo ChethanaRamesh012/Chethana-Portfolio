@@ -15,6 +15,13 @@ export const ABOUT_TEXT = `I am an engineer specializing in Analog, Digital, and
 
 export const EXPERIENCES = [
   {
+    year: "Feb 2023 - Jun 2023",
+    role: "Embedded Systems Intern",
+    company: "Tequed Labs Pvt Ltd",
+    description: `Designed and implemented a complete IoT-enabled Warehouse Management System by integrating RFID readers with NodeMCU microcontrollers over SPI for automated asset tracking and location updates. Developed embedded C firmware and PHP-based backend to facilitate data acquisition, server communication, and real-time monitoring simulating early-stage bring-up and debug workflows for sensor-based systems. Characterized system-level behavior through iterative test setup revisions, debugging communication failures using serial logging and protocol analysis, reflecting practical lab experience with embedded communication standards (I2C, SPI) and microcontroller interfacing.`,
+    technologies: ["Embedded Firmware & Hardware Bring-up","System-level Integration & Protocol Debugging","Sensor & Peripheral Interfacing","Lab-based Debug & Validation Workflows"],
+  },
+  {
     year: "Jan 2023",
     role: "Front End Developer Intern",
     company: "IBM Bengaluru, India",
@@ -23,7 +30,7 @@ export const EXPERIENCES = [
   },
   {
     year: "Dec 2019 - Jan 2020",
-    role: "Intrn",
+    role: "Intern",
     company: "Karnataka German Technical Training Institute",
     description: `I worked on designing real-time industrial control systems using RSLogix in PLC software, where I built and tested circuits for efficient and reliable automation. I also configured and monitored industrial processes using Wonderware SCADA, gaining hands-on experience in setting up control interfaces and ensuring optimal system performance.`,
     technologies: ["RSLogix","PLC Software","Wonderware","SCADA Systems"],
