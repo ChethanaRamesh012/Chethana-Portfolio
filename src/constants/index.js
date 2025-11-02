@@ -46,8 +46,15 @@ export const EDUCATION = [
 
 export const EXPERIENCES = [
   {
+    year: "Aug 2025 - present",
+    role: "Electrical Engineer",
+    company: "Beacon Industries",
+    description: "Architect next-generation Ga₂O₃-based DC–DC converters featuring custom gate-driver circuits, performing detailed switching transient and EMI simulations, and initiating hardware prototyping to enhance efficiency, reliability, and power density beyond GaN implementations. Develop a cryogenic pump inverter utilizing Ga₂O₃ power devices and FPGA-based Field-Oriented Control (FOC) implemented in Verilog RTL, driving a REBCO-coil motor with real-time sensor feedback for adaptive switching and precise cryogenic operation control. Implement and verify custom 64 Mb SRAM and SERDES modules on the Zybo Z7 FPGA board using Verilog/SystemVerilog RTL coding and Siemens ModelSim for simulation, timing closure, and debugging, focusing on radiation-hardened design, signal integrity, and high-speed data throughput in mission-critical environments. Analyze and validate GaN-based 650 V → 25 V DC–DC converters through LTspice simulations and hardware testing, evaluating switching losses, thermal conduction, and efficiency trade-offs under high-voltage, high-frequency conditions to refine converter reliability and overall performance.",
+    technologies: "Ga₂O₃ Devices, GaN Power Electronics, Wide-Bandgap Semiconductors, DC–DC Converter Design, Gate Driver Circuits, FPGA Design, Verilog/SystemVerilog RTL, Field-Oriented Control (FOC), Zybo Z7 FPGA Board, Siemens ModelSim, SRAM Architecture, SERDES, Radiation-Hardened Design, Timing Closure, Signal Integrity, LTspice Simulation, Thermal Analysis, Switching Loss Modeling, Hardware Prototyping, Power Density Optimization"
+  },
+  {
     year: "Feb 2023 - Jun 2023",
-    role: "Embedded Systems Intern",
+    role: "Intern",
     company: "Tequed Labs Pvt Ltd",
     description: `Designed and implemented a complete IoT-enabled Warehouse Management System by integrating RFID readers with NodeMCU microcontrollers over SPI for automated asset tracking and location updates. Developed embedded C firmware and PHP-based backend to facilitate data acquisition, server communication, and real-time monitoring simulating early-stage bring-up and debug workflows for sensor-based systems. Characterized system-level behavior through iterative test setup revisions, debugging communication failures using serial logging and protocol analysis, reflecting practical lab experience with embedded communication standards (I2C, SPI) and microcontroller interfacing.`,
     technologies: ["Embedded Firmware", "Hardware Bring-up","System-level Integration", "Protocol Debugging","Sensor & Peripheral Interfacing","Lab-based Debug", "Validation Workflows"],
